@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Pocket Tanks Game </title>
+	<link rel="stylesheet" type="text/css" href="Game.css"/>
+	
+</head>
+<body onload="initialize()">
+	<canvas id="myCanvas" height="700px" width="1400px"></canvas>
+	<div style="display:none;"><img id="left" src="TankLeft.jpg"/></div>
+	<div style="display:none;"><img id="right" src="TankRight.jpg"/></div>
+	<audio id="bgm" src="bgm.mp3" loop autoplay="" style="display: none;"></audio> 
+	<audio src="launch.mp3" id="launch" style="display: none;"></audio>
+	<audio src="explosion.mp3" id="explode" style="display: none;"></audio>
+	<br>
+	<div id="mistype" class="types"></div>
+	<div id="power" class="types"></div>
+	<div id="angle" class="types">
+    	<p>
+    		<span id="turns"></span><br>
+			Enter the Angle (0-90)
+		<input type="text" id="anglein">
+		<button id="button"> Submit</button>
+		<button id ="restart">Restart</button>
+		<button id ="pause" onclick="pause()">Pause</button>
+		</p>
+	</div>
+	<script type="text/javascript" src="Game.js"></script>
+</body>
+</html>

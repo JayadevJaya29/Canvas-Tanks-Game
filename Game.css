@@ -1,0 +1,59 @@
+body
+{
+	background-color: rgb(255, 0, 0);
+	margin:4vh 4vw;
+}
+canvas 
+{
+	background: rgb(105, 166, 249);
+	margin:0px;
+	border-width: 2px 2px 2px 2px;
+	border-color: black;
+	border-style: double; 
+}
+.types
+{
+	text-align: center;
+	font-family: serif;
+	font-size: 30px;
+	font-style: italic;
+	color: rgb(0, 255, 255);
+	border-style: groove;
+	border-radius: 20px;
+	margin: 10px 100px;
+	padding: 5px 10px;
+	background-color: rgb(255, 0, 123)
+}
+#anglein
+{
+	width: 20%;
+	align-self: center;
+	align-items: center;
+	align-content: center;
+	height: 30px;
+	font-size: 25px;
+	color: rgb(63, 104, 67);
+	margin: 5px;
+}
+button
+{
+	font-size: 20px;
+	padding: 10px;
+	margin: 1px;
+	background-color: rgb(255, 255, 0);
+	color: rgb(195, 0, 255);
+	border-radius: 10px;
+	border: 1px solid rgb(0, 255, 0);
+	
+	transition-duration: 0.4s;
+}
+button:hover
+{
+	cursor: pointer;
+	background-color: rgb(255, 84, 0);
+}
+button:disabled
+{
+	opacity: 0.7;
+    cursor: not-allowed;
+}
